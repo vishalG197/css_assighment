@@ -1,0 +1,32 @@
+
+.image-card {
+   border: 1px solid #ddd;
+   border-radius: 8px;
+   overflow: hidden;
+   margin: 10px;
+   transition: transform 0.2s ease-in-out;
+ }
+ 
+ .image-card:hover {
+   transform: scale(1.05);
+ }
+ 
+ .image-card img {
+   width: 100%;
+   height: auto;
+   border-bottom: 1px solid #ddd;
+ }
+ 
+ .card-details {
+   padding: 10px;
+ }
+ 
+ .card-details h3 {
+   margin: 0;
+ }
+ 
+ .card-details p {
+   margin: 5px 0;
+   font-weight: bold;
+ }
+ 
